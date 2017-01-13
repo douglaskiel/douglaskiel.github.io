@@ -43,28 +43,32 @@ header {
 /*Banner section*/
 #main-image {
 	float: left;
-	width: 650px;
-	height: 300px;
+	width: 700px;
+	height: 150px;
 }
 
 #couple  {
 	float: right;
-	width: 340px;
-	height: 300px;
+	width: 240px;
+	height: 150px;
 }
 
 
 
 
 
-#Welcome {
-	margin: 30px 0px 0px 300px;
+#Pull {
+	margin: 170px 70px 10px 180px;
 	font-size: 30px;
 	color: #CDDC39;
-	
 }
 
-
+#Give {
+	float: left;
+	width: 57%;
+	margin: 0px 200px 0px 100px;
+	font-size: 18px;
+}
 
 
 
