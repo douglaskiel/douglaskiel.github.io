@@ -43,24 +43,21 @@ header {
 /*Banner section*/
 #main-image {
 	float: left;
-	width: 700px;
+	width: 750px;
 	height: 150px;
 }
 
-#couple  {
+#Knight  {
 	float: right;
 	width: 240px;
 	height: 150px;
 }
 
-
-
-
-
-#Pull {
-	margin: 170px 70px 10px 180px;
-	font-size: 30px;
+#Pull > header {
 	color: #CDDC39;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 170px 0px 10px 180px;
 }
 
 #Give {
@@ -69,6 +66,44 @@ header {
 	margin: 0px 200px 0px 100px;
 	font-size: 18px;
 }
+
+#theaternews {
+	float: right;
+	 width: 240px;
+	 margin: 20px 0px 20px 0px;
+}
+
+#japsong {
+	height: 180px;
+	width: 145px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 10px
+}
+
+#japwords {
+	font-family: Footlight MT Light
+}
+
+#couple {
+	height: 180px;
+	width: 145px;
+	border-radius: 30px;
+	float: left;
+	margin-right: 10px
+}
+
+#couplewords {
+	font-family: Footlight MT Light
+}
+
+
+
+
+
+
+
+
 
 
 
