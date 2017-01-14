@@ -74,27 +74,31 @@ header {
 }
 
 #japsong {
-	height: 180px;
-	width: 145px;
+	height: 145px;
+	width: 190px;
 	border-radius: 30px;
 	float: left;
-	margin-right: 10px
+	margin-right: 10px;
+	margin: 20px 20px 20px 20px;
 }
 
 #japwords {
 	font-family: Footlight MT Light
+	margin: 10px 20px 10px 20px;
 }
 
 #couple {
-	height: 180px;
-	width: 145px;
+	height: 145px;
+	width: 190px;
 	border-radius: 30px;
 	float: left;
-	margin-right: 10px
+	margin-right: 10px;
+	margin: 20px 20px 20px 20px;
 }
 
 #couplewords {
-	font-family: Footlight MT Light
+	font-family: Footlight MT Light;
+	margin: 10px 20px 10px 20px;
 }
 
 
