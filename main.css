@@ -1,5 +1,5 @@
 body {
-	width: 1100px;
+	width: 1150px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Apple Chancery;
@@ -12,16 +12,6 @@ header {
 #main-header {
 	font-size: 50px;
 	color: #7d2614;
-}
-
-/*Logo*/
-
-.logo {
-	height: 100px;
-	width: 100px;
-	border-radius: 30px;
-	float: left;
-	margin-right: 10px
 }
 
 /*Title*/
@@ -43,7 +33,7 @@ header {
 /*Banner section*/
 #main-image {
 	float: left;
-	width: 750px;
+	width: 910px;
 	height: 150px;
 }
 
@@ -55,9 +45,16 @@ header {
 
 #Pull > header {
 	color: #CDDC39;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: bold;
-	margin: 170px 0px 10px 180px;
+	margin: 170px 0px 10px 90px;
+}
+
+#Pulltwo > header {
+	color: #CDDC39;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0px 0px 10px 90px;
 }
 
 #Give {
@@ -66,13 +63,21 @@ header {
 	margin: 0px 200px 0px 100px;
 	font-size: 18px;
 }
-
+/**/
 #theaternews {
+	color: #CDDC39;
 	float: right;
-	 width: 240px;
-	 margin: 20px 0px 20px 0px;
+	width: 240px;
+	margin: 20px 0px 20px 0px;
+	font-family: Footlight MT Light;
 }
 
+#theaternews > header {
+	font-family: Apple Chancery;
+}
+/*I want to have information about 
+the specifics of the play under 
+each picture*/
 #japsong {
 	height: 145px;
 	width: 190px;
@@ -83,10 +88,10 @@ header {
 }
 
 #japwords {
-	font-family: Footlight MT Light
-	margin: 10px 20px 10px 20px;
+	margin: 10px 20px 10px 10px;
 }
 
+/**/
 #couple {
 	height: 145px;
 	width: 190px;
@@ -95,10 +100,21 @@ header {
 	margin-right: 10px;
 	margin: 20px 20px 20px 20px;
 }
-
+/**/
 #couplewords {
-	font-family: Footlight MT Light;
-	margin: 10px 20px 10px 20px;
+	margin: 10px 20px 10px 10 px;
+}
+
+#theaternews > ul {
+	list-style: none;
+}
+
+#lovebed {
+	float: left;
+	width: 750px;
+	height: 450px;
+	border-radius: 75px;
+	margin: 30px 20px 10px 10px;
 }
 
 
