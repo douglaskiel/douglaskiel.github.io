@@ -16,9 +16,9 @@ header {
 
 /*Title*/
 #header-name {
-	font-size: 45px;
+	font-size: 42px;
 	color: #7d2614;
-	padding: 100px;
+	padding: 80px; 
 	margin: 80px 0px 0px 0px;
 	float: center;
 }
@@ -26,7 +26,7 @@ header {
 /*Search*/
 #search {
 	float: right;
-	padding: 15px;
+	padding: 10px;
 	margin: 15px 0px 0px 0px;
 }
 
@@ -60,7 +60,7 @@ header {
 #Give {
 	float: left;
 	width: 57%;
-	margin: 0px 200px 0px 100px;
+	margin: 0px 20px 0px 100px;
 	font-size: 18px;
 }
 /**/
