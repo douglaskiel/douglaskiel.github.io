@@ -115,15 +115,33 @@ each picture*/
 	list-style: none;
 }
 
-#lovebed {
+#main {
+	height: 100%;
+	width: 900;
+	float: left;
+}
+
+#songtitle {
+	float: left;
+	color: #CDDC39;
+	font-size:  22px;
+	height: 20px;
+	margin: 30px 20px 20px 50px;
+}
+
+#lovebed-scripture-thumbnail {
 	float: left;
 	width: 650px;
 	height: 350px;
 	border-radius: 75px;
-	margin: 30px 20px 20px 90px;
+	margin: 30px 20px 20px 50px;
 }
 
+#songeight {
+	float: left;
+	
 
+}
 
 
 
