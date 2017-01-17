@@ -117,8 +117,8 @@ each picture*/
 
 #main {
 	height: 100%;
-	width: 900;
-	float: left;
+	width: 900px;
+	
 }
 
 #songtitle {
@@ -138,10 +138,22 @@ each picture*/
 }
 
 .text {
-	width: 100%;
-	float: left;
+	width: 75%;
+	padding: 10px;
 }
 
+.scripture {
+
+}
+
+footer {
+	width: 100%;
+	background-color: purple;
+	margin: 20px 0px 20px 0px;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+	color: white;
+}
 
 
 
