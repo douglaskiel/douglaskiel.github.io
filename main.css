@@ -2,8 +2,9 @@ body {
 	width: 1150px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: Apple Chancery;
-	background-attachment: 
+	font-family: Apple Chancery !important;
+	background-image: url(http://love_of_life_quotes.jpg);
+	background-size: 100%; 
 }
 
 header {
@@ -37,15 +38,19 @@ header {
 	height: 150px;
 }
 
+#bigbox p{
+	display: block;
+}
+
 #Pull > header {
-	color: #CDDC39;
+	color: #8e9454;
 	font-size: 24px;
 	font-weight: bold;
 	margin: 170px 0px 10px 90px;
 }
 
 #Pulltwo > header {
-	color: #CDDC39;
+	color: #8e9454;
 	font-size: 24px;
 	font-weight: bold;
 	margin: 0px 0px 10px 90px;
@@ -59,9 +64,10 @@ header {
 }
 /**/
 #theaternews {
-	color: #CDDC39;
+	color: #8e9454;
 	float: right;
 	width: 240px;
+	height: 900px;
 	margin: 25px 0px 20px 30px;
 	padding: 20px;
 	font-family: Footlight MT Light;
@@ -122,14 +128,13 @@ each picture*/
 }
 
 #songtitle {
-	float: left;
-	color: #CDDC39;
+	text-align: center;
+	color: #8e9454;
 	font-size:  22px;
 	height: 20px;
-	margin: 30px 20px 20px 50px;
 }
 
-#lovebed-scripture-thumbnail {
+#lovebed-scripture-thumbnail img{
 	float: left;
 	width: 650px;
 	height: 350px;
@@ -143,6 +148,10 @@ each picture*/
 }
 
 .scripture {
+
+}
+
+#songeight {
 
 }
 
