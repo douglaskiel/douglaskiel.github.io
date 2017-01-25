@@ -57,7 +57,7 @@ hr.small {
   font-weight: 800;
 }
 .navbar-custom .navbar-header .navbar-toggle {
-  color: #777777;
+  color: rgba(40, 150, 165, 0.97);
   font-weight: 800;
   text-transform: uppercase;
   font-size: 12px;
@@ -79,15 +79,15 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #3c1b1b;
   }
   .navbar-custom .nav li a {
-    color: black;
+    color: rgba(32, 116, 128, 0.97);
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #3c1b1b;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -151,7 +151,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  color: black;
+  color: rgba(40, 150, 165, 0.97);
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -205,7 +205,7 @@ hr.small {
   font-size: 20px;
 }
 .intro-header .post-heading .meta a {
-  color: black;
+  color: rgba(40, 150, 165, 0.97);
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
