@@ -152,7 +152,7 @@ hr.small {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 100px 0 50px;
-  font-weight: 4000;
+  font-weight: 400;
   font-size: 6em;
   background: linear-gradient(330deg, #faef8b 0%, #3385ff 25%, #ffdc7a 50%, #c4887d 75%, #9466ad 100%);
   -webkit-background-clip: text;
@@ -183,11 +183,10 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 900;
   margin: 10px 0 0;
-  font-size: 6em;
-  background: linear-gradient(330deg, #faef8b 0%, #3385ff 25%, #ffdc7a 50%, #c4887d 75%, #9466ad 100%);
+  background: linear-gradient(660deg, #e60000 0%, #330080 25%, #6600ff 50%, #e6e600 75%, #99994d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 200px;
+  line-height: 40px;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading h1,
@@ -227,7 +226,11 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #333333;
+.gradient
+  background-image:
+    linear-gradient(
+      red, #9351a5
+    );
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
