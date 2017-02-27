@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  background-color: #2f442c;
+  background-color: rgba(179, 204, 146, 0.78);
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #333333;
@@ -80,15 +80,15 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: #3c1b1b;
+    color: #000100;
   }
   .navbar-custom .nav li a {
-    color: rgba(32, 116, 128, 0.97);
+    color: #B1CDE1;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: #3c1b1b;
+    color: #000100;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -153,10 +153,10 @@ hr.small {
 .intro-header .page-heading {
   padding: 100px 0 50px;
   font-weight: 400;
-  font-size: 6em;
-  background: linear-gradient(330deg, #faef8b 0%, #3385ff 25%, #ffdc7a 50%, #c4887d 75%, #9466ad 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black;
+  color: rgba(0, 0, 0, 0.81);
+  /*font-size: 6em*/;
+  /*background: black;*/
   line-height: 200px;
 }
 @media only screen and (min-width: 768px) {
@@ -183,9 +183,9 @@ hr.small {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 900;
   margin: 10px 0 0;
-  background: linear-gradient(660deg, #e60000 0%, #330080 25%, #6600ff 50%, #e6e600 75%, #99994d 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: black; 
+  color: rgba(0, 0, 0, 0.81);
+  /*background: black;*/
   line-height: 40px;
 }
 @media only screen and (min-width: 768px) {
